@@ -6,611 +6,164 @@
     <title>Sweet Paradise</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
- <!-- <div class="item-carrusel">
-                <div class="tarjeta-carrusel"></div>
-                <div class="flechas-carrusel">
-                    <i>I</i>
-                    
-                    <i>D</i>
-                </div>
-
-            </div> -->
-
-
 <body>
-
     <header class="head">
         <nav>
             <ul>
                 <li><a href="#seccion1">Inicio</a></li>
                 <li>
-                    <a href="#" id="menu">Servicios</a>
+                    <a href="#" id="menu">Menú</a>
                     <ul class="sub-menu" id="submenu">
                         <li><a href="#sub1">Bocaditos</a></li>
                         <li><a href="#sub2">Regalos</a></li>
-                        <li><a href="#sub3">Para  compartir</a></li>
+                        <li><a href="#sub3">Para compartir</a></li>
                         <li><a href="#sub4">Tortas personalizadas</a></li>
                     </ul>
                 </li>
             </ul>
         </nav>
-
         <div class="logo_centro">
-            <h1>Sweet Paradise</h1>
+            <h1><a href="#seccion1">Sweet Paradise</a></h1>
         </div>
-        
-
         <a href="#" class="btn">
-            <button>Login</button><a>
-            </a>
-
+            <button>Login</button>
+        </a>
     </header>
     <main>
         <section id="seccion1">
-            <img src="#" alt="">
+            <img src="../imagenes web sp/banner_1.png" alt="imagen 1">
         </section>
-    
-        <section class="opciones_menu" id="sub1">
+        <section class="contenido">
+            <div class="texto">
+                <h2>¿De donde nace Sweet Paradise? </h2>
+                <p>Nace a partir de una recomendación de mis docentes de cocina, decidí 
+                    incursionar en la repostería y crear mi propia historia. 
+                    Desde los 10 años, mi pasión por la creatividad y perfección me llevó a 
+                    experimentar con nuevos sabores y técnicas, creando bellos momentos dulces.</p>
+            </div>
+            <div class="imagen">
+                <img src="../imagenes web sp/foto-presentacion.jpeg" alt="imagen 2">
+            </div>
+        </section>
+        <section class="seccion" id="sub1">
             <h2>Bocaditos</h2>
-    
-                <div class="carousel">
-    
-                    <div class="carrusel-list" id="carrusel-list">
-                        <button class="carrusel-arrow carrusel-prev" id="button-prev" data-button="button-prev"
-                            onclick="app.processingButton(event)">
-    
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left"
-                                class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 320 512">
-                                <path fill="currentColor"
-                                    d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z">
-                                </path>
-                            </svg>
-                        </button>
-    
-                        <div class="carrusel-track" id="track">
-                            <div class="carrusel">
-                                <div>
-                                    <a href="#">
-                                        <h4><small>Imagen</small> Mas </h4>
-                                        <picture>
-                                            <img src="../imagenes web sp/alfajores sin editar.png" alt="alfajores">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="carrusel">
-                                <div>
-                                    <a href="#">
-                                        <h4><small>Imagen</small> Mas </h4>
-                                        <picture>
-                                            <img src="../imagenes web sp/bocaditos de coco sin editar.jpg" alt="dulce de coco">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="carrusel">
-                                <div>
-                                    <a href="#">
-                                        <h4><small>brigadeiro de chocolate</small> Mas </h4>
-                                        <picture>
-                                            <img src="../imagenes web sp/brigadeiros sin editar.png" alt="brigadeiro de chocolate">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="carrusel">
-                                <div>
-                                    <a href="#">
-                                        <h4><small>Imagen</small> Mas </h4>
-                                        <picture>
-                                            <img src="../imagenes web sp/brigaderiros churrros sin editar.png" alt="brigadeiros de churro">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="carrusel">
-                                <div>
-                                    <a href="#">
-                                        <h4><small>Imagen</small> Mas </h4>
-                                        <picture>
-                                            <img src="../imagenes web sp/brigadeiros de maracuya sin editar.png" alt="brigadeiros de maracuya">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="carrusel">
-                                <div>
-                                    <a href="#">
-                                        <h4><small>Imagen</small> Mas </h4>
-                                        <picture>
-                                            <img src="../imagenes web sp/delicias de nuez sin editar.png" alt="delicias de nuez">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="carrusel">
-                                <div>
-                                    <a href="#">
-                                        <h4><small>Imagen</small> Mas </h4>
-                                        <picture>
-                                            <img src="../imagenes web sp/frutitas de leche sin editar.png" alt="frutitas de leche">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="carrusel">
-                                <div>
-                                    <a href="#">
-                                        <h4><small>Imagen</small> Mas </h4>
-                                        <picture>
-                                            <img src="../imagenes web sp/shots-de-cheesecake-de-frutos-rojos.jpeg" alt="cheesecake de frutos rojos">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="carrusel">
-                                <div>
-                                    <a href="#">
-                                        <h4><small>Imagen</small> Mas </h4>
-                                        <picture>
-                                            <img src="../imagenes web sp/tartaletas-de-crema-pastelera.jpeg" alt="tartaleta de crema pastelera">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
-    
-                            
-                            <div class="carrusel">
-                                <div>
-                                    <a href="#">
-                                        <h4><small>Imagen</small> Mas </h4>
-                                        <picture>
-                                            <img src="../imagenes web sp/mini-brownies.jpeg" alt="brownies">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="carrusel">
-                                <div>
-                                    <a href="#">
-                                        <h4><small>Imagen</small> Mas </h4>
-                                        <picture>
-                                            <img src="../imagenes web sp/crumble-cokies-3.jpeg" alt="crumble cokies vainilla y chocolate blanco">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="carrusel">
-                                <div>
-                                    <a href="#">
-                                        <h4><small>Imagen</small> Mas </h4>
-                                        <picture>
-                                            <img src="../imagenes web sp/crumble-cokies-1.jpeg" alt="crumble cokies chocolate">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="carrusel">
-                                <div>
-                                    <a href="#">
-                                        <h4><small>Imagen</small> Mas </h4>
-                                        <picture>
-                                            <img src="../imagenes web sp/crumble-cokies-2.jpeg" alt="vainilla y chispas de chocolate">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <button class="carrusel-arrow carrusel-next" id="button-next" data-button="button-next" onclick="app.processingButton(event)">
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
-                                class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 320 512">
-                                <path fill="currentColor"
-                                    d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z">
-                                </path>
-                            </svg>
-                        </button>
-                    </div>
-                </div>
+            <div class="bloque">
+                <img src="../imagenes web sp/alfajores sin editar.png" alt="Img 1">
+                <p>Alfajores clasicos de manjar 25U $5,5</p>
+            </div>
+            <div class="bloque">
+                <img src="../imagenes web sp/bocaditos de coco sin editar.jpg" alt="Img 2">
+                <p>Dulce de coco 25U $5,5</p>
+            </div>
+            <div class="bloque">
+                <img src="../imagenes web sp/brigadeiros sin editar.png" alt="Img 3">
+                <p>Brigadeiros de chocolate 25U $10,5</p>
+            </div>
+            <div class="bloque">
+                <img src="../imagenes web sp/brigaderiros churrros sin editar.png" alt="Img 4">
+                <p>Brigadeiros de churro $10,5</p>
+            </div>
+            <div class="bloque">
+                <img src="../imagenes web sp/brigadeiros de maracuya sin editar.png" alt="Img 5">
+                <p>Brigadeiros de maracuya $13,0</p>
+            </div>
+            <div class="bloque">
+                <img src="../imagenes web sp/delicias de nuez sin editar.png" alt="Img 6">
+                <p>Delicias de nuez 25U $5,5</p>
+            </div>
+            <div class="bloque">
+                <img src="../imagenes web sp/frutitas de leche sin editar.png" alt="Img 7">
+                <p>frutitas de leche 25U $5,5</p>
+            </div>
+            <div class="bloque">
+                <img src="../imagenes web sp/shots-de-cheesecake-de-frutos-rojos.jpeg" alt="Img 8">
+                <p>Shots de cheese cake de frutos rojos 25U $10,5</p>
+            </div>
+            <div class="bloque">
+                <img src="../imagenes web sp/tartaletas-de-crema-pastelera.jpeg" alt="Img 9">
+                <p>Tartaletas de crema pastelera 25U $10,5</p>
+            </div>
+            <div class="bloque">
+                <img src="../imagenes web sp/mini-brownies.jpeg" alt="Img 10">
+                <p>Mini brownies 25U $5,5</p>
+            </div>
         </section>
-    
-        <section class="opciones_menu" id="sub2">
+
+        <section class="seccion" id="sub2">
             <h2>Regalos</h2>
-            <div class="carousel">
-    
-                <div class="carrusel-list" id="carrusel-list">
-                    <button class="carrusel-arrow carrusel-prev" id="button-prev" data-button="button-prev"
-                        onclick="app.processingButton(event)">
-    
-                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left"
-                            class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 320 512">
-                            <path fill="currentColor"
-                                d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z">
-                            </path>
-                        </svg>
-                    </button>
-    
-                    <div class="carrusel-track" id="track">
-                        <div class="carrusel">
-                            <div>
-                                <a href="#">
-                                    <h4><small>brigadeiro de chocolate</small> Mas </h4>
-                                    <picture>
-                                        <img src="../imagenes web sp/brigadeiros sin editar.png" alt="brigadeiro de chocolate">
-                                    </picture>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="carrusel">
-                            <div>
-                                <a href="#">
-                                    <h4><small>Imagen</small> Mas </h4>
-                                    <picture>
-                                        <img src="../imagenes web sp/brigaderiros churrros sin editar.png" alt="brigadeiros de churro">
-                                    </picture>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="carrusel">
-                            <div>
-                                <a href="#">
-                                    <h4><small>Imagen</small> Mas </h4>
-                                    <picture>
-                                        <img src="../imagenes web sp/brigadeiros de maracuya sin editar.png" alt="brigadeiros de maracuya">
-                                    </picture>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="carrusel">
-                            <div>
-                                <a href="#">
-                                    <h4><small>Imagen</small> Mas </h4>
-                                    <picture>
-                                        <img src="../imagenes web sp/delicias de nuez sin editar.png" alt="delicias de nuez">
-                                    </picture>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="carrusel">
-                            <div>
-                                <a href="#">
-                                    <h4><small>Imagen</small> Mas </h4>
-                                    <picture>
-                                        <img src="../imagenes web sp/frutitas de leche sin editar.png" alt="frutitas de leche">
-                                    </picture>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="carrusel">
-                            <div>
-                                <a href="#">
-                                    <h4><small>Imagen</small> Mas </h4>
-                                    <picture>
-                                        <img src="../imagenes web sp/shots-de-cheesecake-de-frutos-rojos.jpeg" alt="cheesecake de frutos rojos">
-                                    </picture>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="carrusel">
-                            <div>
-                                <a href="#">
-                                    <h4><small>Imagen</small> Mas </h4>
-                                    <picture>
-                                        <img src="../imagenes web sp/tartaletas-de-crema-pastelera.jpeg" alt="tartaleta de crema pastelera">
-                                    </picture>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="carrusel-arrow carrusel-next" id="button-next" data-button="button-next" onclick="app.processingButton(event)">
-                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
-                            class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 320 512">
-                            <path fill="currentColor"
-                                d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z">
-                            </path>
-                        </svg>
-                    </button>
-                </div>
+            <div class="bloque">
+                <img src="#" alt="Img 1">
+                <p>Texto</p>
+            </div>
+            <div class="bloque">
+                <img src="#" alt="Img 2">
+                <p>Texto</p>
+            </div>
+            <div class="bloque">
+                <img src="#" alt="Img 3">
+                <p>Texto</p>
             </div>
         </section>
-    
-    
-        <section class="opciones_menu" id="sub3">
+        <section class="seccion" id="sub3">
             <h2>Para compartir</h2>
-    
-                <div class="carousel">
-    
-                    <div class="carrusel-list" id="carrusel-list">
-                        <button class="carrusel-arrow carrusel-prev" id="button-prev" data-button="button-prev"
-                            onclick="app.processingButton(event)">
-    
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left"
-                                class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 320 512">
-                                <path fill="currentColor"
-                                    d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z">
-                                </path>
-                            </svg>
-                        </button>
-    
-                        <div class="carrusel-track" id="track">
-                            <div class="carrusel">
-                                <div>
-                                    <a href="#">
-                                        <h4><small>Imagen</small> Mas </h4>
-                                        <picture>
-                                            <img src="../imagenes web sp/alfajores sin editar.png" alt="alfajores">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="carrusel">
-                                <div>
-                                    <a href="#">
-                                        <h4><small>Imagen</small> Mas </h4>
-                                        <picture>
-                                            <img src="../imagenes web sp/bocaditos de coco sin editar.jpg" alt="dulce de coco">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="carrusel">
-                                <div>
-                                    <a href="#">
-                                        <h4><small>brigadeiro de chocolate</small> Mas </h4>
-                                        <picture>
-                                            <img src="../imagenes web sp/brigadeiros sin editar.png" alt="brigadeiro de chocolate">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="carrusel">
-                                <div>
-                                    <a href="#">
-                                        <h4><small>Imagen</small> Mas </h4>
-                                        <picture>
-                                            <img src="../imagenes web sp/brigaderiros churrros sin editar.png" alt="brigadeiros de churro">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="carrusel">
-                                <div>
-                                    <a href="#">
-                                        <h4><small>Imagen</small> Mas </h4>
-                                        <picture>
-                                            <img src="../imagenes web sp/brigadeiros de maracuya sin editar.png" alt="brigadeiros de maracuya">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="carrusel">
-                                <div>
-                                    <a href="#">
-                                        <h4><small>Imagen</small> Mas </h4>
-                                        <picture>
-                                            <img src="../imagenes web sp/delicias de nuez sin editar.png" alt="delicias de nuez">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="carrusel">
-                                <div>
-                                    <a href="#">
-                                        <h4><small>Imagen</small> Mas </h4>
-                                        <picture>
-                                            <img src="../imagenes web sp/frutitas de leche sin editar.png" alt="frutitas de leche">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="carrusel">
-                                <div>
-                                    <a href="#">
-                                        <h4><small>Imagen</small> Mas </h4>
-                                        <picture>
-                                            <img src="../imagenes web sp/shots-de-cheesecake-de-frutos-rojos.jpeg" alt="cheesecake de frutos rojos">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="carrusel">
-                                <div>
-                                    <a href="#">
-                                        <h4><small>Imagen</small> Mas </h4>
-                                        <picture>
-                                            <img src="../imagenes web sp/tartaletas-de-crema-pastelera.jpeg" alt="tartaleta de crema pastelera">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
-    
-                            
-                            <div class="carrusel">
-                                <div>
-                                    <a href="#">
-                                        <h4><small>Imagen</small> Mas </h4>
-                                        <picture>
-                                            <img src="../imagenes web sp/mini-brownies.jpeg" alt="brownies">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="carrusel">
-                                <div>
-                                    <a href="#">
-                                        <h4><small>Imagen</small> Mas </h4>
-                                        <picture>
-                                            <img src="../imagenes web sp/crumble-cokies-3.jpeg" alt="crumble cokies vainilla y chocolate blanco">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="carrusel">
-                                <div>
-                                    <a href="#">
-                                        <h4><small>Imagen</small> Mas </h4>
-                                        <picture>
-                                            <img src="../imagenes web sp/crumble-cokies-1.jpeg" alt="crumble cokies chocolate">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="carrusel">
-                                <div>
-                                    <a href="#">
-                                        <h4><small>Imagen</small> Mas </h4>
-                                        <picture>
-                                            <img src="../imagenes web sp/crumble-cokies-2.jpeg" alt="vainilla y chispas de chocolate">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <button class="carrusel-arrow carrusel-next" id="button-next" data-button="button-next" onclick="app.processingButton(event)">
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
-                                class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 320 512">
-                                <path fill="currentColor"
-                                    d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z">
-                                </path>
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-        </section>
-    
-    
-        
-    
-    
-        <section class="opciones_menu" id="sub4">
-            <h2>Tortas personalizadas</h2>
-            <div class="carousel">
-    
-                <div class="carrusel-list" id="carrusel-list">
-                    <button class="carrusel-arrow carrusel-prev" id="button-prev" data-button="button-prev"
-                        onclick="app.processingButton(event)">
-    
-                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left"
-                            class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 320 512">
-                            <path fill="currentColor"
-                                d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z">
-                            </path>
-                        </svg>
-                    </button>
-    
-                    <div class="carrusel-track" id="track">
-                        <div class="carrusel">
-                            <div>
-                                <a href="#">
-                                    <h4><small>brigadeiro de chocolate</small> Mas </h4>
-                                    <picture>
-                                        <img src="../imagenes web sp/brigadeiros sin editar.png" alt="brigadeiro de chocolate">
-                                    </picture>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="carrusel">
-                            <div>
-                                <a href="#">
-                                    <h4><small>Imagen</small> Mas </h4>
-                                    <picture>
-                                        <img src="../imagenes web sp/brigaderiros churrros sin editar.png" alt="brigadeiros de churro">
-                                    </picture>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="carrusel">
-                            <div>
-                                <a href="#">
-                                    <h4><small>Imagen</small> Mas </h4>
-                                    <picture>
-                                        <img src="../imagenes web sp/brigadeiros de maracuya sin editar.png" alt="brigadeiros de maracuya">
-                                    </picture>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="carrusel">
-                            <div>
-                                <a href="#">
-                                    <h4><small>Imagen</small> Mas </h4>
-                                    <picture>
-                                        <img src="../imagenes web sp/delicias de nuez sin editar.png" alt="delicias de nuez">
-                                    </picture>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="carrusel">
-                            <div>
-                                <a href="#">
-                                    <h4><small>Imagen</small> Mas </h4>
-                                    <picture>
-                                        <img src="../imagenes web sp/frutitas de leche sin editar.png" alt="frutitas de leche">
-                                    </picture>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="carrusel">
-                            <div>
-                                <a href="#">
-                                    <h4><small>Imagen</small> Mas </h4>
-                                    <picture>
-                                        <img src="../imagenes web sp/shots-de-cheesecake-de-frutos-rojos.jpeg" alt="cheesecake de frutos rojos">
-                                    </picture>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="carrusel">
-                            <div>
-                                <a href="#">
-                                    <h4><small>Imagen</small> Mas </h4>
-                                    <picture>
-                                        <img src="../imagenes web sp/tartaletas-de-crema-pastelera.jpeg" alt="tartaleta de crema pastelera">
-                                    </picture>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="carrusel-arrow carrusel-next" id="button-next" data-button="button-next" onclick="app.processingButton(event)">
-                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
-                            class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 320 512">
-                            <path fill="currentColor"
-                                d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z">
-                            </path>
-                        </svg>
-                    </button>
-                </div>
+            <div class="bloque">
+                <img src="#" alt="Img 1">
+                <p>Texto</p>
+            </div>
+            <div class="bloque">
+                <img src="#" alt="Img 2">
+                <p>Texto</p>
+            </div>
+            <div class="bloque">
+                <img src="#" alt="Img 3">
+                <p>Texto</p>
             </div>
         </section>
-    
-        <section class="opciones_menu"  id="#">
-            <h2>Reseñas</h2>
+        <section class="seccion" id="sub4">
+            <h2>Tortas personalizadas</h2>
+            <div class="bloque">
+                <img src="#" alt="Img 1">
+                <p>Texto</p>
+            </div>
+            <div class="bloque">
+                <img src="#" alt="Img 2">
+                <p>Texto</p>
+            </div>
+            <div class="bloque">
+                <img src="#" alt="Img 3">
+                <p>Texto</p>
+            </div>
         </section>
-    
+        <section class="reseñas" id="reseñas">
+            <h2>Reseñas</h2>
+            <div class="bloque">
+                <p>Texto</p>
+            </div>
+            <div class="bloque">
+                <p>Texto</p>
+            </div>
+            <div class="bloque">
+                <p>Texto</p>
+            </div>
+        </section>
+        
     </main>
- 
     <footer>
-        <p>© Sweet Paradise</p>
-
-        <div class="iconos_pagina"><a href="https://www.tiktok.com/@sweetparadise_vs?_t=8qbhoWnHbSX&_r=1" target="_blank">Tiktok</a></div>
-
-        <div class="iconos_pagina"><a href="https://www.instagram.com/sweetparadise_vs?igsh=c3N6eWdraWl2OWsy" target="_blank">Instagram</a></div>
-
-        <div class="iconos_pagina"><a href="https://wa.me/qr/V4LO7FUBK2KWO1" target="_blank">Whatsapp</a></div>
-
+        <section class="social-media">
+            <h2>Redes Sociales</h2>
+        </section>
+        <p>© Sweet Paradise</p></p>
+        <div class="iconos_pagina"><a href="https://www.tiktok.com/@sweetparadise_vs?_t=8qbhoWnHbSX&_r=1" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
+            <path d="M 9 4 C 6.2495759 4 4 6.2495759 4 9 L 4 41 C 4 43.750424 6.2495759 46 9 46 L 41 46 C 43.750424 46 46 43.750424 46 41 L 46 9 C 46 6.2495759 43.750424 4 41 4 L 9 4 z M 9 6 L 41 6 C 42.671576 6 44 7.3284241 44 9 L 44 41 C 44 42.671576 42.671576 44 41 44 L 9 44 C 7.3284241 44 6 42.671576 6 41 L 6 9 C 6 7.3284241 7.3284241 6 9 6 z M 26.042969 10 A 1.0001 1.0001 0 0 0 25.042969 10.998047 C 25.042969 10.998047 25.031984 15.873262 25.021484 20.759766 C 25.016184 23.203017 25.009799 25.64879 25.005859 27.490234 C 25.001922 29.331679 25 30.496833 25 30.59375 C 25 32.409009 23.351421 33.892578 21.472656 33.892578 C 19.608867 33.892578 18.121094 32.402853 18.121094 30.539062 C 18.121094 28.675273 19.608867 27.1875 21.472656 27.1875 C 21.535796 27.1875 21.663054 27.208245 21.880859 27.234375 A 1.0001 1.0001 0 0 0 23 26.240234 L 23 22.039062 A 1.0001 1.0001 0 0 0 22.0625 21.041016 C 21.906673 21.031216 21.710581 21.011719 21.472656 21.011719 C 16.223131 21.011719 11.945313 25.289537 11.945312 30.539062 C 11.945312 35.788589 16.223131 40.066406 21.472656 40.066406 C 26.72204 40.066409 31 35.788588 31 30.539062 L 31 21.490234 C 32.454611 22.653646 34.267517 23.390625 36.269531 23.390625 C 36.542588 23.390625 36.802305 23.374442 37.050781 23.351562 A 1.0001 1.0001 0 0 0 37.958984 22.355469 L 37.958984 17.685547 A 1.0001 1.0001 0 0 0 37.03125 16.6875 C 33.886609 16.461891 31.379838 14.012216 31.052734 10.896484 A 1.0001 1.0001 0 0 0 30.058594 10 L 26.042969 10 z M 27.041016 12 L 29.322266 12 C 30.049047 15.2987 32.626734 17.814404 35.958984 18.445312 L 35.958984 21.310547 C 33.820114 21.201935 31.941489 20.134948 30.835938 18.453125 A 1.0001 1.0001 0 0 0 29 19.003906 L 29 30.539062 C 29 34.707538 25.641273 38.066406 21.472656 38.066406 C 17.304181 38.066406 13.945312 34.707538 13.945312 30.539062 C 13.945312 26.538539 17.066083 23.363182 21 23.107422 L 21 25.283203 C 18.286416 25.535721 16.121094 27.762246 16.121094 30.539062 C 16.121094 33.483274 18.528445 35.892578 21.472656 35.892578 C 24.401892 35.892578 27 33.586491 27 30.59375 C 27 30.64267 27.001859 29.335571 27.005859 27.494141 C 27.009759 25.65271 27.016224 23.20692 27.021484 20.763672 C 27.030884 16.376775 27.039186 12.849206 27.041016 12 z"></path>
+            </svg></a></div>
+        <div class="iconos_pagina"><a href="https://www.instagram.com/sweetparadise_vs?igsh=c3N6eWdraWl2OWsy" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 24 24">
+            <path d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z"></path>
+        </svg></a></div>
+        <div class="iconos_pagina"><a href="https://wa.me/qr/V4LO7FUBK2KWO1" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 24 24">
+            <path d="M 12.011719 2 C 6.5057187 2 2.0234844 6.478375 2.0214844 11.984375 C 2.0204844 13.744375 2.4814687 15.462563 3.3554688 16.976562 L 2 22 L 7.2324219 20.763672 C 8.6914219 21.559672 10.333859 21.977516 12.005859 21.978516 L 12.009766 21.978516 C 17.514766 21.978516 21.995047 17.499141 21.998047 11.994141 C 22.000047 9.3251406 20.962172 6.8157344 19.076172 4.9277344 C 17.190172 3.0407344 14.683719 2.001 12.011719 2 z M 12.009766 4 C 14.145766 4.001 16.153109 4.8337969 17.662109 6.3417969 C 19.171109 7.8517969 20.000047 9.8581875 19.998047 11.992188 C 19.996047 16.396187 16.413812 19.978516 12.007812 19.978516 C 10.674812 19.977516 9.3544062 19.642812 8.1914062 19.007812 L 7.5175781 18.640625 L 6.7734375 18.816406 L 4.8046875 19.28125 L 5.2851562 17.496094 L 5.5019531 16.695312 L 5.0878906 15.976562 C 4.3898906 14.768562 4.0204844 13.387375 4.0214844 11.984375 C 4.0234844 7.582375 7.6067656 4 12.009766 4 z M 8.4765625 7.375 C 8.3095625 7.375 8.0395469 7.4375 7.8105469 7.6875 C 7.5815469 7.9365 6.9355469 8.5395781 6.9355469 9.7675781 C 6.9355469 10.995578 7.8300781 12.182609 7.9550781 12.349609 C 8.0790781 12.515609 9.68175 15.115234 12.21875 16.115234 C 14.32675 16.946234 14.754891 16.782234 15.212891 16.740234 C 15.670891 16.699234 16.690438 16.137687 16.898438 15.554688 C 17.106437 14.971687 17.106922 14.470187 17.044922 14.367188 C 16.982922 14.263188 16.816406 14.201172 16.566406 14.076172 C 16.317406 13.951172 15.090328 13.348625 14.861328 13.265625 C 14.632328 13.182625 14.464828 13.140625 14.298828 13.390625 C 14.132828 13.640625 13.655766 14.201187 13.509766 14.367188 C 13.363766 14.534188 13.21875 14.556641 12.96875 14.431641 C 12.71875 14.305641 11.914938 14.041406 10.960938 13.191406 C 10.218937 12.530406 9.7182656 11.714844 9.5722656 11.464844 C 9.4272656 11.215844 9.5585938 11.079078 9.6835938 10.955078 C 9.7955938 10.843078 9.9316406 10.663578 10.056641 10.517578 C 10.180641 10.371578 10.223641 10.267562 10.306641 10.101562 C 10.389641 9.9355625 10.347156 9.7890625 10.285156 9.6640625 C 10.223156 9.5390625 9.737625 8.3065 9.515625 7.8125 C 9.328625 7.3975 9.131125 7.3878594 8.953125 7.3808594 C 8.808125 7.3748594 8.6425625 7.375 8.4765625 7.375 z"></path>
+        </svg></a></div>
     </footer>
-
     <script src="script.js"></script>
 </body>
 </html>
-
-
-
 
